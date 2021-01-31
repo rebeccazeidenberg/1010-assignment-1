@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html {
+    background-color: #d5d5d5;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+#main {
+    display: flex;
+}
+
+.row {
+    padding: 5px;
+}
+
+.image1 {
+    background: url("../pictures/city-skyline.jpg");
+    height: 200px;
+    width: 300px;
+    background-size: 300px 200px;
+}
+
+.image1:hover {
+    background: linear-gradient(to bottom right, rgba(238, 238, 238, 0.774) 50%, transparent 50%), url("../pictures/city-skyline.jpg");
+    background-size: 300px 200px;
+}
+
+.title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+.desc {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    padding: 10px 5px;
+}
+
+.title, .desc {
+    visibility: hidden;
+}
+
+.row:hover .title {
+    visibility: visible;
+}
+
+.row:hover .desc {
+    visibility: visible;
+}
+
+.image2 {
+    background-image: url("../pictures/old-city-hall.jpg");
+    height: 450px;
+    width: 300px;
+    background-size: 300px 450px;
+}
+
+.image2:hover {
+    background: linear-gradient(to bottom right, rgba(238, 238, 238, 0.774) 50%, transparent 50%), url("../pictures/old-city-hall.jpg");
+    background-size: 300px 450px;
+}
+
+.image3 {
+    background-image: url("../pictures/new-city-hall.jpg");
+    height: 450px;
+    width: 300px;
+    background-size: 300px 450px;
+}
+
+.image3:hover {
+    background: linear-gradient(to bottom right, rgba(238, 238, 238, 0.774) 50%, transparent 50%), url("../pictures/new-city-hall.jpg");
+    background-size: 300px 450px;
+}
+
+.image4 {
+    background-image: url("../pictures/rogers-center.jpg");
+    height: 200px;
+    width: 300px;
+    background-size: 300px 200px;
+}
+
+.image4:hover {
+    background: linear-gradient(to bottom right, rgba(238, 238, 238, 0.774) 50%, transparent 50%), url("../pictures/rogers-center.jpg");
+    background-size: 300px 200px;
+}
+
+.image5 {
+    background-image: url("../pictures/rom.jpg");
+    height: 200px;
+    width: 300px;
+    background-size: 300px 200px;
+}
+
+.image5:hover {
+    background: linear-gradient(to bottom right, rgba(238, 238, 238, 0.774) 50%, transparent 50%), url("../pictures/rom.jpg");
+    background-size: 300px 200px;
+}
+
+.image6 {
+    background-image: url("../pictures/cn-tower.jpg");
+    height: 450px;
+    width: 300px;
+    background-size: 300px 450px;
+}
+
+.image6:hover {
+    background: linear-gradient(to bottom right, rgba(238, 238, 238, 0.774) 50%, transparent 50%), url("../pictures/cn-tower.jpg");
+    background-size: 300px 450px;
+}
+
+footer {
+    margin: 50px 5px;
+}
+
+.nav-link {
+    color: black;
+    padding-right: 20px;
+}
